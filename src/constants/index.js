@@ -4,7 +4,7 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `Full Stack Developer proficient in a diverse tech ecosystem, including React, Node.js, PHP (Laravel), and Git. Strong experience in implementing microservices architectures and RESTful APIs, with a focus on code quality and performance optimization. Familiar with Agile methodologies (Scrum) to ensure efficient team collaboration and timely project deliveries.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile front-end developer with a strong passion for crafting user-friendly and visually appealing web interfaces. My expertise lies in working with HTML, CSS, and JavaScript frameworks like React.js and Next.js to build responsive and dynamic web applications. I also have experience integrating server-side functionality using PHP. My journey in web development began with a fascination for design and user experience, which has evolved into a career where I continuously strive to learn and adapt to new front-end technologies and best practices. I thrive in collaborative environments and enjoy bringing creative solutions to life through code. Outside of coding, I stay active by exploring new technologies and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile Full Stack Developer developer with a strong passion for crafting user-friendly and visually appealing web interfaces. My expertise lies in working with HTML, CSS, and JavaScript frameworks like React.js and Next.js to build responsive and dynamic web applications. I also have experience integrating server-side functionality using PHP. My journey in web development began with a fascination for design and user experience, which has evolved into a career where I continuously strive to learn and adapt to new front-end technologies and best practices. I thrive in collaborative environments and enjoy bringing creative solutions to life through code. Outside of coding, I stay active by exploring new technologies and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -13,13 +13,6 @@ export const EXPERIENCES = [
     company: "Google Inc.",
     description: `Développeur frontend passionné, formé à l'Office de Formation Professionnelle et de Promotion du Travail, je possède une solide expérience avec React.js, HTML, CSS, JavaScript, et Next.js, ainsi qu'une bonne maîtrise de PHP pour les besoins côté serveur. Je suis spécialisé dans la création d'interfaces utilisateur intuitives et performantes. Je m'intéresse à l'optimisation de l'expérience utilisateur, j'aime collaborer avec des équipes dynamiques, et je suis toujours curieux d'apprendre les nouvelles tendances du développement web. Mon objectif est de continuer à m'améliorer dans le développement frontend tout en relevant de nouveaux défis créatifs et techniques..`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   },
   {
     year: "2021 - 2022",
