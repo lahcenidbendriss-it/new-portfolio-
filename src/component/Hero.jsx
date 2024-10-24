@@ -3,7 +3,7 @@ import { HERO_CONTENT } from "../constants"
 import profilepic from "../assets/avatar-6.png"
 import { motion } from "framer-motion"
 
-const PDF_FILE_URL = '/file_pdf.pdf'
+const PDF_FILE_URL = '/Lahcen Idbendriss Resume-2.pdf'
 
 function Hero() {
   const container = (delay) => ({
@@ -26,7 +26,7 @@ function Hero() {
   };
 
   return (
-    <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
+    <div className='border-b border-neutral-900 pb-2  lg:mb-35'>
       <div className='flex flex-wrap'>
         <div className='w-full lg:w-1/2'>
           <div className='flex flex-col items-center lg:items-start'>
@@ -34,7 +34,7 @@ function Hero() {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className='pb-16 text-6xl font-thin tracking-tight lg:mt-6 lg:text-6xl'>
+              className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-2 6xl'>
               Lahcen Idbendriss
             </motion.h1>
             <motion.span
@@ -48,14 +48,14 @@ function Hero() {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className='my-1 max-w-xl py-4 font-light tracking-tighter'>
+              className='my-4  max-w-xl py-2 font-small tracking-tighter'>
               {HERO_CONTENT}
             </motion.p>
             <motion.button
               variants={container(1.5)}
               initial="hidden"
               animate="visible"
-              className='mr-4 rounded bg-purple-900 px-4 py-2 text-sm font-medium text-white hover:bg-purple-700 transition duration-300'
+              className='mr-4 rounded bg-purple-700 px-6 py-2 text-xl font-medium text-white hover:bg-purple-500  transition duration-300'
               onClick={handleDownload}>Download CV</motion.button>
           </div>
         </div>

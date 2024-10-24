@@ -8,9 +8,9 @@ import Contact from './component/Contact'
 
 function App() {
   return (
-    <div className='overflow-x-hidden text-neutral-300 antialiased slection:bg-cyan-300 slection:text-cyan-900  '>
+    <div className='overflow-x-hidden  antialiased   '>
     <div className='fixed top-0 -z-10 h-full w-full'>
-    <div class="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
+    <div class='absolute top-0 z-[-2] h-screen w-screen rotate-180 transform bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(252,205,238,.5)_100%)]'></div>
 
     </div>
     <div className='container mx-auto px-8'>
@@ -23,7 +23,11 @@ function App() {
     <Contact />
     </div>
 
-     
+    
+
+    
+
+    
  
     
     </div>
