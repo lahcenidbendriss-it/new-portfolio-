@@ -72,7 +72,7 @@ function Tecknologies() {
         </motion.div>
 
         <motion.div
-          variants={iconVariante(7)}
+          variants={iconVariante(4)}
           initial="initial"
           animate="animate"
           className='rounded-2xl border-4 border-neutral-800 p-4'
@@ -81,7 +81,7 @@ function Tecknologies() {
         </motion.div>
 
         <motion.div
-          variants={iconVariante(8)}
+          variants={iconVariante(5)}
           initial="initial"
           animate="animate"
           className='rounded-2xl border-4 border-neutral-800 p-4'
