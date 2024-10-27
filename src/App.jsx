@@ -6,7 +6,10 @@ import Tecknologies from './component/Tecknologies'
 import Projects from './component/Projects'
 import Contact from './component/Contact'
 
+
 function App() {
+
+  
   return (
     <div className='overflow-x-hidden  antialiased   '>
     <div className='fixed top-0 -z-10 h-full w-full'>

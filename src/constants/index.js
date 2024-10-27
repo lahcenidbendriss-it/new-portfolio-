@@ -58,7 +58,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Quartier El Qods LOT 707 Rue Oued Izik LAAYOUNE . MA",
+  address: "Casablanca, Morocco",
   phoneNo: "+212 762599440 ",
   email: "lahcenidbendriss@gmail.com",
 };

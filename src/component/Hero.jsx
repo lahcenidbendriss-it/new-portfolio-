@@ -3,6 +3,8 @@ import { HERO_CONTENT } from "../constants"
 import profilepic from "../assets/avatar-6.png"
 import { motion } from "framer-motion"
 
+
+
 const PDF_FILE_URL = '/Lahcen Idbendriss Resume-2.pdf'
 
 function Hero() {
@@ -34,7 +36,7 @@ function Hero() {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-2 6xl'>
+              className='pb-8 text-5xl font-bold-300 tracking-tight lg:mt-16 lg:text-2 6xl'>
               Lahcen Idbendriss
             </motion.h1>
             <motion.span
@@ -51,21 +53,29 @@ function Hero() {
               className='my-4  max-w-xl py-2 font-small tracking-tighter'>
               {HERO_CONTENT}
             </motion.p>
+             
             <motion.button
-              variants={container(1.5)}
+              variants={container(1.3)}
               initial="hidden"
               animate="visible"
-              className='mr-4 rounded bg-purple-700 px-6 py-2 text-xl font-medium text-white hover:bg-purple-500  transition duration-300'
+              className='mr-4 rounded-full bg-purple-700 px-6 py-2 text-xl font-medium text-white hover:bg-purple-500   transition duration-300'
               onClick={handleDownload}>Download CV</motion.button>
           </div>
         </div>
         <div className='w-full lg:w-1/2 lg:p-8'>
           <div className='flex justify-center '>
-            <motion.img
+          <motion.div
+          initial={{ x: 100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }} 
+          transition={{ duration: 1, delay: 1.2 }}
+          className='bg-pink-100 rounded-full max-w-fit max-h-fit '>
+              <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
-              src={profilepic} alt='Lahcen Idbendriss' />
+              src={profilepic} alt='Lahcen Idbendriss'
+              className="inline-block h-[400px] w-auto rounded-full " /></motion.div>
+            
           </div>
         </div>
       </div>
