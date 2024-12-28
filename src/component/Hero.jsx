@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 
 
 
-const PDF_FILE_URL = '/Lahcen Idbendriss Resume-2.pdf'
+const PDF_FILE_URL = '/lahcen idbendriss.pdf'
 
 function Hero() {
   const container = (delay) => ({

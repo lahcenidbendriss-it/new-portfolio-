@@ -1,6 +1,10 @@
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import logo1 from "../assets/LOGO_EN_3.png";
+import logo2 from "../assets/logolat.png";
+
+
 
 export const HERO_CONTENT = `Full Stack Developer proficient in a diverse tech ecosystem, including React, Node.js, PHP (Laravel), and Git. Strong experience in implementing microservices architectures and RESTful APIs, with a focus on code quality and performance optimization. Familiar with Agile methodologies (Scrum) to ensure efficient team collaboration and timely project deliveries.`;
 
@@ -8,26 +12,24 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Full Stack Developer d
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Développeur frontend passionné, formé à l'Office de Formation Professionnelle et de Promotion du Travail, je possède une solide expérience avec React.js, HTML, CSS, JavaScript, et Next.js, ainsi qu'une bonne maîtrise de PHP pour les besoins côté serveur. Je suis spécialisé dans la création d'interfaces utilisateur intuitives et performantes. Je m'intéresse à l'optimisation de l'expérience utilisateur, j'aime collaborer avec des équipes dynamiques, et je suis toujours curieux d'apprendre les nouvelles tendances du développement web. Mon objectif est de continuer à m'améliorer dans le développement frontend tout en relevant de nouveaux défis créatifs et techniques..`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2021 - 2022",
+    year: "2024 - Present",
+    title_project: "Site Web Conférence 2025",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "Flow Studio.",
+    description: `Développement et conception d’un site web multilingue avec WordPress, PHP et MySQL pour la Conférence du Groupe Africain des Juges. Ce projet a inclus l’intégration d’une base de données MySQL afin de permettre une gestion dynamique et personnalisée du contenu. La plateforme a été déployée et hébergée sur CapConnecte pour garantir des performances optimales et une accessibilité accrue. De plus, des fonctionnalités clés ont été mises en place, telles que la gestion des programmes, les inscriptions et la diffusion des informations logistiques destinées aux participants.`,
+    technologies: [ "WordPress", "PHP", "MySQL","Javascript"],
+    image:logo1,
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2024 - Present",
+    title_project: "Développement du Site Web Cyber Skills Lab",
+    role: "Front end Developer",
+    company: "Flow Studio.",
+    description: `Designed and developed the official website for Cyber Skills Lab using HTML, CSS, and PHP. The project involved integrating interactive exercises and immersive labs to offer practical training in cybersecurity. The platform was deployed and hosted on CapConnecte, ensuring both reliable performance and scalability.`,
+    technologies: ["HTML", "CSS", "PHP"],
+    image:logo2,
   },
+
 ];
 
 export const PROJECTS = [
