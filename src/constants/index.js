@@ -13,16 +13,16 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Full Stack Developer d
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
-    title_project: "Site Web Conférence 2025",
+    title_project: "Conference 2025 website",
     role: "Full Stack Developer",
     company: "Flow Studio.",
-    description: `Développement et conception d’un site web multilingue avec WordPress, PHP et MySQL pour la Conférence du Groupe Africain des Juges. Ce projet a inclus l’intégration d’une base de données MySQL afin de permettre une gestion dynamique et personnalisée du contenu. La plateforme a été déployée et hébergée sur CapConnecte pour garantir des performances optimales et une accessibilité accrue. De plus, des fonctionnalités clés ont été mises en place, telles que la gestion des programmes, les inscriptions et la diffusion des informations logistiques destinées aux participants.`,
+    description: `Development and design of a multilingual website using WordPress, PHP and MySQL for the African Group of Judges Conference. This project included the integration of a MySQL database to enable dynamic and personalized content management. The platform was deployed and hosted on CapConnecte to ensure optimum performance and accessibility. In addition, key functionalities were implemented, such as program management, registration and the distribution of logistical information to participants.`,
     technologies: [ "WordPress", "PHP", "MySQL","Javascript"],
     image:logo1,
   },
   {
     year: "2024 - Present",
-    title_project: "Développement du Site Web Cyber Skills Lab",
+    title_project: "Cyber Skills Lab website development",
     role: "Front end Developer",
     company: "Flow Studio.",
     description: `Designed and developed the official website for Cyber Skills Lab using HTML, CSS, and PHP. The project involved integrating interactive exercises and immersive labs to offer practical training in cybersecurity. The platform was deployed and hosted on CapConnecte, ensuring both reliable performance and scalability.`,
