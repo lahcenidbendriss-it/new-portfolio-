@@ -22,7 +22,9 @@ function Projects() {
                 transition={{duration:1.5}}
                  className='w-full lg:w-1/4'>
                     <img src={experience.image} alt={experience.title} width={150} height={150} className='mb-6 rounded'/>
+                    
                 </motion.div>
+               
                 <motion.div 
                 whileInView={{opacity:1, x:0}}
                 initial={{opacity:0, x:100}}
@@ -34,8 +36,14 @@ function Projects() {
                     <p className='mb-4 text-neutral-600'>{experience.description}</p>
                     {experience.technologies.map((tech, index)=>(
                         <span key={index} className='mr-2 rounded bg-white-900 px-2 py-1 text-sm font-medium text-purple-900'>{tech}</span>
+                    
 
-                        ) )}
+                        ) )} <br/>
+                        <div className='pt-4 hover:text-blue-800 font-small underline'> 
+                        <a href={experience.link} target="_blank" rel="noopener noreferrer">Visit Project</a>
+
+                        </div>
+                        
                 </motion.div>
 
 
